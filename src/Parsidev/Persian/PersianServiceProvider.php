@@ -5,14 +5,10 @@ use Illuminate\Support\ServiceProvider;
 
 class PersianServiceProvider extends ServiceProvider
 {
-    protected $defer = false;
-
-    public function boot() {
-
-    }
+    protected $defer = true;
 
     public function register() {
-        $this->app['persian'] = $this->app->singleton(Persian::class, function($app) {
+        $this->app->singleton('persian', function() {
             return new Persian();
         });
     }

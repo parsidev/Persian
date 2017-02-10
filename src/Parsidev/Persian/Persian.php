@@ -3,11 +3,6 @@ namespace Parsidev\Persian;
 
 class Persian
 {
-    public function __construct()
-    {
-
-    }
-
     public function arabicChar($value)
     {
         $arabicChars = ["ي", "ك", "‍", "دِ", "بِ", "زِ", "ذِ", "ِشِ", "ِسِ", "‌", "ى"];
