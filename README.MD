@@ -28,7 +28,7 @@ In Laravel 4.*
 Next, add a Facade for more convenient usage. In ```config/app.php``` add the following line to the aliases array:
 ```
 In Laravel 5.*
-'Persian' => Parsidev\Persian\Facades\Persian:class,
+'Persian' => Parsidev\Persian\Facades\Persian::class,
 
 In Laravel 4.*
 'Persian' => 'Parsidev\Persian\Facades\Persian',
