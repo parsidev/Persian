@@ -16,5 +16,15 @@
             "Parsidev\\Persian": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Parsidev\\Persian\\PersianServiceProvider"
+            ],
+            "aliases": {
+                "Persian": "Parsidev\\Persian\\Facades"
+            }
+        }
+    },
     "minimum-stability": "stable"
 }
